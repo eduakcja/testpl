@@ -1,0 +1,9 @@
+baseURL: http://example.org/
+languageCode: pl_PL
+title: dariusz.blog
+theme: "PaperMod"
+
+params:
+    homeInfoParams:
+        Title: Cześć... 👋 👍 🙂 
+        Content: Cieszę się, że tu jesteś. Ten blog jest o **prawach człowieka, edukacji, technologii, młodych ludziach** i wielu innych tematach, którymi się interesuję. Miłego czytania! 
