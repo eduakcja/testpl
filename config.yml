@@ -1,9 +1,53 @@
-baseURL: "/"
+baseURL: "https://dariusz.blog"
 languageCode: en_us
 title: dariusz.blog
 theme: "PaperMod"
+enableEmoji: true
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+
+menu:
+    main:
+        - identifier: EN
+          name: EN
+          url: "https://darek.blog"
+          target: "_blank"
+          weight: 30
+
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 40
 
 params:
     homeInfoParams:
         Title: Cześć... 👋 👍 🙂 
         Content: Cieszę się, że tu jesteś. Ten blog jest o **prawach człowieka, edukacji, technologii, młodych ludziach** i wielu innych tematach, którymi się interesuję. Miłego czytania! 
+
+    socialIcons:
+        - name: LinkedIn
+        url: "https://www.linkedin.com/in/dariusz-grzemny-39716a3/"
+        - name: RSS
+        url: "index.xml"
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowToc: false
+
+    # defaultTheme: light
+    # defaultTheme: dark
+    defaultTheme: auto # to switch between dark or light according to browser theme
