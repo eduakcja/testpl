@@ -37,7 +37,11 @@ params:
         Title: Cześć... 👋 👍 🙂 
         Content: Cieszę się, że tu jesteś. Ten blog jest o **prawach człowieka, edukacji, technologii, młodych ludziach** i wielu innych tematach, którymi się interesuję. Miłego czytania! 
 
-
+    socialIcons:
+    - name: LinkedIn
+      url: "https://www.linkedin.com/in/dariusz-grzemny-39716a3/"
+    - name: RSS
+      url: "index.xml"
 
     defaultTheme: auto
     # disableThemeToggle: true
