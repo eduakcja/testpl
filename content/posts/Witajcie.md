@@ -5,8 +5,5 @@ draft: false
 ---
 
 ==Pierwszy post== Just checking
-How to do 
 
-Wht is it not working?
-
-{{< vimeo 533851726 >}}
+![example image](/ecri.png) 
