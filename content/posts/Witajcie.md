@@ -6,4 +6,3 @@ draft: false
 
 ==Pierwszy post== Just checking
 
-![example image](/ecri.png) 
